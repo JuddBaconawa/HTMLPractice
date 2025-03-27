@@ -1,0 +1,72 @@
+body {
+	width: 1600px;
+	height: 900px;
+
+}
+
+
+
+.truckTrailer-section {
+	width: 1366px;
+	height: 884px;
+	padding: 64px;
+	gap: 24px;
+}
+
+.backgroundimage {
+	width: 1366px;
+	height: 884px;
+	opacity: .95;
+}
+
+.section-title {
+	width: 1238px;
+	height: 128px;
+
+	font-family: Nunito Sans;
+	font-weight: 700;
+	font-size: 51px;
+	line-height: 125%;
+
+	text-align: center;
+	
+}
+
+.firstrow {
+	width:1238px;
+	height: 238 px;
+
+	gap: 24px;
+
+}
+
+.secondRow{
+	width:1238px;
+	height: 238 px;
+
+	gap: 24px;
+}
+
+.exploreall-button {
+	background-color: rgb(255, 204, 0, 1);
+	color: rgb(0, 0, 0, 1);
+
+	width: 240px;
+	height: 50px;
+	border-radius: 100px;
+	cursor: pointer;
+
+	border: solid 2px;
+	border-color: rgb(255, 204, 0, 1);
+
+	padding: 16px 24px 16px 24px;
+	gap: 12px;
+
+	font-family: Nunito Sans;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
+
+
+}
