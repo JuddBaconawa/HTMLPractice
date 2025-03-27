@@ -1,10 +1,10 @@
 <style>
-	.SUBSCRIBE-button {
+	.subscribe-button {
 		background-color: rgb(200, 0, 0);
 		color: white;
 		border: none;
 
-		padding: 9px 16px 9px 16px;	/* Order: Top, right, down, left */
+		padding: 10px 16px 10px 16px;	/* Order: Top, right, down, left */
 
 		border-radius: 2px;
 		cursor: pointer;
@@ -15,19 +15,19 @@
 		transition: background-color, color .15s;
 	}
 
-	.SUBSCRIBE-button:hover {
+	.subscribe-button:hover {
 		opacity: .8;
 		/* background-color: green; */
 	}
 
-	.SUBSCRIBE-button:active {
+	.subscribe-button:active {
 		opacity: 0.4;
 		/* background-color: blue; */
 	}
 
 /*===============================================*/
 
-	.JOIN-button {
+	.join-button {
 		background-color: rgb(255, 255, 255);
 		color: rgb(6, 95, 212);
 		border: solid rgb(6, 95, 212);
@@ -46,7 +46,7 @@
 		vertical-align: top;
 	}
 
-	.JOIN-button:hover {
+	.join-button:hover {
 		background-color: rgb(6, 95, 212);
 		color: white;
 		border: white;
@@ -54,7 +54,7 @@
 
 	}
 
-	.JOIN-button:active {
+	.join-button:active {
 		opacity: 0.7;
 	}
 
@@ -66,13 +66,14 @@
 		color: rgb(255, 255, 255);
 		border: none;
 
-		padding: 12px 15px 12px 15px;	/* Order: top right down left */
+		padding: 10px 15px 10px 15px;	/* Order: top right down left */
 
 		border-radius: 18px;
 
 		font-weight: bold;
 		cursor: pointer;
 		vertical-align: top;
+		margin: 4px;
 		
 		
 	}		
@@ -86,6 +87,7 @@
 
 	.tweet-button:active {
 		/* box-shadow: 10px 10px 10px black; */
+		opacity: 0.05;
 	}
 
 
@@ -97,13 +99,14 @@
 		padding: 10px 15px 10px 15px;
 		
 
-		border-radius: 100px;
-		border: 2px;
+		border-radius: 18px;
+		border: 1px;
 		cursor: pointer;
-		padding: 24, 16, 24, 16;
-		font-size:15px; 
+		padding: 10px 16px 10px 16px;
+
 		transition: 0.17s;
 		vertical-align: top;
+		margin: 4px;
 	}
 
 	.explore-all-trailers-button:hover {
@@ -117,12 +120,12 @@
 </style>
 
 
-<button class="SUBSCRIBE-button">
+<button class="subscribe-button">
 	SUBSCRIBE
 </button>
 
 
-<button class="JOIN-button">
+<button class="join-button">
 	JOIN
 </button>
 
