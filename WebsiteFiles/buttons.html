@@ -8,15 +8,18 @@
 		border-radius: 2px;
 		cursor: pointer;
 		margin: 4px;
-		transition: opacity .15s;
+		/* transition: background-color 0.15s; */   
+		transition: background-color, color .15s;
 	}
 
 	.SUBSCRIBE-button:hover {
 		opacity: .8;
+		/* background-color: green; */
 	}
 
 	.SUBSCRIBE-button:active {
 		opacity: 0.4;
+		/* background-color: blue; */
 	}
 
 /*===============================================*/
@@ -57,7 +60,7 @@
 /* ====================================== */
 
 	.tweet-button {
-		background-color: rgb(3, 139, 181);
+		background-color: rgb(2, 158, 255);
 		color: rgb(255, 255, 255);
 		border: none;
 		height: 36px;
@@ -66,11 +69,22 @@
 		font-size: 15px;
 		font-weight: bold;
 		cursor: pointer;
+		
+		
 	}
 
 	.tweet-button:hover {
 
+		/* box shadow has 4 setting: horizontal position, vertical position, blur level, and color(rgba changes it a bit)  */
+		box-shadow: 10px 10px 15px rgba(85, 83, 83, 0.15);
+
 	}
+
+	.tweet-button:active {
+		/* box-shadow: 10px 10px 10px black; */
+	}
+
+
 /* ======================================= */
 	.explore-all-trailers-button {
 		background-color: rgb(255, 204, 0);
@@ -81,25 +95,27 @@
 		border: 2px;
 		cursor: pointer;
 		padding: 24, 16, 24, 16;
-		gap: 12px;
 		font-size:15px; 
 	}
 
 </style>
 
+YouTube Subscribe button 
 <button class="SUBSCRIBE-button">
 	SUBSCRIBE
 </button>
 
+Join button
 <button class="JOIN-button">
 	JOIN
 </button>
 
+tweet button
 <button class="tweet-button">
 	Tweet
 </button>
 
-
+explore all trailers button
 <button class="explore-all-trailers-button">
 	Explore All Trailers >
 </button>
