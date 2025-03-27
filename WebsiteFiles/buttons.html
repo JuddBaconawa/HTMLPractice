@@ -29,8 +29,8 @@
 		color: rgb(3, 139, 181);
 		border: solid rgb(3, 139, 181);
 		border-width: 1.75px;
-		height: 36px;
-		width: 60px;
+		padding: 10px 30px 10px 30px;	/* Top, Right, Down, Left */
+
 		border-radius: 3px;
 		
 
@@ -42,6 +42,7 @@
 		/* ensures that it transitions back to normal */
 		transition: background-color 1s,
 			color 1s;
+		vertical-align: top;
 	}
 
 	.JOIN-button:hover {
@@ -69,6 +70,7 @@
 		font-size: 15px;
 		font-weight: bold;
 		cursor: pointer;
+		vertical-align: top;
 		
 		
 	}		
@@ -96,6 +98,11 @@
 		cursor: pointer;
 		padding: 24, 16, 24, 16;
 		font-size:15px; 
+		transition: 0.17s;
+	}
+
+	.explore-all-trailers-button:hover {
+		background-color: rgb(95, 77, 2)
 	}
 
 </style>
