@@ -2,18 +2,27 @@ body {
 	width: 1600px;
 	height: 900px;
 
+
+
 }
 
 
 
 .truckTrailer-section {
+	background-image: url('pictures/background.jpg');
+
 	width: 1366px;
 	height: 884px;
 	padding: 64px;
-	gap: 24px;
+	/* gap: 24px; */
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
 }
 
-.backgroundimage {
+.background-image {
 	width: 1366px;
 	height: 884px;
 	opacity: .95;
@@ -29,6 +38,7 @@ body {
 	line-height: 125%;
 
 	text-align: center;
+	left: 40px;
 	
 }
 
@@ -40,7 +50,7 @@ body {
 
 }
 
-.secondRow{
+.secondrow{
 	width:1238px;
 	height: 238 px;
 
