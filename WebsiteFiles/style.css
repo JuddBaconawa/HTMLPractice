@@ -1,7 +1,6 @@
 body {
 	background-image: url('pictures/background.jpg');
-	width: 1366px;
-	height: 884px;
+
 	font-family: Nunito Sans;
 	margin: 0;
 	padding: 0;
@@ -15,6 +14,9 @@ body {
 
 .truckTrailer-section {
 	background-image: url('pictures/background.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	/* display: flex; */
 	/* width: 1366px;
 	height: 884px; */
@@ -30,7 +32,7 @@ body {
 }
 
 .truck-foursquares {
-	display: flex;
+	/* display: flex; */
 }
 
 .background-image {
@@ -65,12 +67,16 @@ body {
 
 
 .firstrow, .secondrow {
+	display: flex; /*to make sure that it doesnt rearange the order */
 	width: fill 1238px;
 	height: hug 238px;
+
 
 	gap: 24px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 
 }
 
@@ -85,23 +91,30 @@ body {
 	gap: 22px;
 }
 
+/* truck pictures added */
 .top-left {
 	background-image: url('pictures/doubledropdecktrailer.jpg');
+	background-size: cover;
 }
 
 .top-right {
 	background-image: url('pictures/stepdecktrailer.jpg');
+	background-size: cover;
 }
 
 .bottom-left {
 	background-image: url('pictures/removablegooseneck.jpg');
+	background-size: cover;
+	background-position: center;
 }
 
 .bottom-right {
 	background-image: url('pictures/flatbedtrailer.jpg');
+	background-size: cover;
+	background-position: center down;
 }
 
-
+/* Truck info */
 .truck-title {
 	color: rgb(255, 255, 255);
 	width: 559px;
@@ -172,7 +185,7 @@ body {
 
 
 
-
+/* button */
 .exploreall-button {
 	background-color: rgb(255, 204, 0, 1);
 	color: rgb(0, 0, 0, 1);
@@ -185,16 +198,20 @@ body {
 	border: solid 2px;
 	border-color: rgb(255, 204, 0, 1);
 
-	padding: 16px 24px 16px 24px;
+	/* padding: 16px 24px 16px 24px; */
 	gap: 12px;
 
 	font-family: Nunito Sans;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 18px;
+
 	text-align: center;
 	align-items: center;
+
 	vertical-align: center;
+	display: flex;
+	justify-content: center;
 
 
 }
