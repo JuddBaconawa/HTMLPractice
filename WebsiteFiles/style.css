@@ -1,7 +1,10 @@
 body {
-	width: 1600px;
-	height: 900px;
-
+	background-image: url('pictures/background.jpg');
+	width: 1366px;
+	height: 884px;
+	font-family: Nunito Sans;
+	margin: 0;
+	padding: 0;
 
 
 }
@@ -12,22 +15,37 @@ body {
 
 .truckTrailer-section {
 	background-image: url('pictures/background.jpg');
-
-	width: 1400px;
-	height: 900px;
-	padding: 64px;
+	/* display: flex; */
+	/* width: 1366px;
+	height: 884px; */
+	/* padding: 64px; */
 	/* gap: 24px; */
 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 
 
+
+
+}
+
+.truck-foursquares {
+	display: flex;
 }
 
 .background-image {
 	width: 1366px;
 	height: 884px;
-	opacity: .95;
+	opacity: 5%;
+}
+
+.truck-image {
+	width: 607px;
+	height: 238px;
+	border-radius: 12px;
+	/* padding: 32px 24px 32px 24px; */
+	gap: 22px;
+
 }
 
 .section-title {
@@ -46,13 +64,43 @@ body {
 
 
 
-.firstrow {
-	width:1238px;
-	height: 238 px;
+.firstrow, .secondrow {
+	width: fill 1238px;
+	height: hug 238px;
 
 	gap: 24px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 
 }
+
+
+.top-left, .top-right, .bottom-left, .bottom-right {
+	width: 607px;
+	height: 238px;
+	border-radius: 12px;
+	padding: 32px 24px 32px 24px;
+	margin-bottom: 20px;
+	margin: 10px;
+	gap: 22px;
+}
+
+.top-left {
+	background-image: url('pictures/doubledropdecktrailer.jpg');
+}
+
+.top-right {
+	background-image: url('pictures/stepdecktrailer.jpg');
+}
+
+.bottom-left {
+	background-image: url('pictures/removablegooseneck.jpg');
+}
+
+.bottom-right {
+	background-image: url('pictures/flatbedtrailer.jpg');
+}
+
 
 .truck-title {
 	color: rgb(255, 255, 255);
@@ -123,12 +171,7 @@ body {
 }
 
 
-.secondrow{
-	width:1238px;
-	height: 238 px;
 
-	gap: 24px;
-}
 
 .exploreall-button {
 	background-color: rgb(255, 204, 0, 1);
@@ -150,6 +193,16 @@ body {
 	font-size: 18px;
 	line-height: 18px;
 	text-align: center;
+	align-items: center;
+	vertical-align: center;
 
 
+}
+
+.exploreall-button:hover {
+	background-color: #ffd633;
+}
+
+.exploreall-button:active {
+	transition
 }
