@@ -1,0 +1,139 @@
+<style>
+	.subscribe-button {
+		background-color: rgb(200, 0, 0);
+		color: white;
+		border: none;
+
+		padding: 10px 16px 10px 16px;	/* Order: Top, right, down, left */
+
+		border-radius: 2px;
+		cursor: pointer;
+		margin: 4px;
+		vertical-align: top;
+
+		/* transition: background-color 0.15s; */   
+		transition: background-color, color .15s;
+	}
+
+	.subscribe-button:hover {
+		opacity: .8;
+		/* background-color: green; */
+	}
+
+	.subscribe-button:active {
+		opacity: 0.4;
+		/* background-color: blue; */
+	}
+
+/*===============================================*/
+
+	.join-button {
+		background-color: rgb(255, 255, 255);
+		color: rgb(6, 95, 212);
+		border: solid rgb(6, 95, 212);
+		border-width: 1.0px;
+		padding: 9px 16px 9px 16px;	/* Top, Right, Down, Left */
+
+		border-radius: 2px;
+
+
+		cursor: pointer;
+		margin: 4px;
+
+		/* ensures that it transitions back to normal */
+		transition: background-color 1s,
+			color 1s;
+		vertical-align: top;
+	}
+
+	.join-button:hover {
+		background-color: rgb(6, 95, 212);
+		color: white;
+		border: white;
+
+
+	}
+
+	.join-button:active {
+		opacity: 0.7;
+	}
+
+
+/* ====================================== */
+
+	.tweet-button {
+		background-color: rgb(2, 158, 255);
+		color: rgb(255, 255, 255);
+		border: none;
+
+		padding: 10px 15px 10px 15px;	/* Order: top right down left */
+
+		border-radius: 18px;
+
+		font-weight: bold;
+		cursor: pointer;
+		vertical-align: top;
+		margin: 4px;
+		
+		
+	}		
+
+	.tweet-button:hover {
+
+		/* box shadow has 4 setting: horizontal position, vertical position, blur level, and color(rgba changes it a bit)  */
+		box-shadow: 10px 10px 15px rgba(85, 83, 83, 0.15);
+
+	}
+
+	.tweet-button:active {
+		/* box-shadow: 10px 10px 10px black; */
+		opacity: 0.05;
+	}
+
+
+/* ======================================= */
+	.explore-all-trailers-button {
+		background-color: rgb(255, 204, 0);
+		color: rgb(0, 0, 0);
+
+		padding: 10px 15px 10px 15px;
+		
+
+		border-radius: 18px;
+		border: 1px;
+		cursor: pointer;
+		padding: 10px 16px 10px 16px;
+
+		transition: 0.17s;
+		vertical-align: top;
+		margin: 4px;
+	}
+
+	.explore-all-trailers-button:hover {
+		background-color: rgb(95, 77, 2)
+	}
+
+	.explore-all-trailers-button:active {
+		opacity: .02;
+	}
+
+</style>
+
+
+<button class="subscribe-button">
+	SUBSCRIBE
+</button>
+
+
+<button class="join-button">
+	JOIN
+</button>
+
+
+<button class="tweet-button">
+	Tweet
+</button>
+
+<button class="explore-all-trailers-button">
+	Explore All Trailers >
+</button>
