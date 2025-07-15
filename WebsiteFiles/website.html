@@ -54,7 +54,7 @@
     border-radius: 18px;
     cursor: grab;
     margin-left: 5px;
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, .5);
+    transition: box-shadow 0.7s;
   }
 
   .tweet-button:hover {
@@ -88,6 +88,14 @@
     cursor: pointer;
   }
 
+  .add-to-cart-button:hover {
+    background-color: rgb(255, 177, 20);
+  }
+
+  .add-to-cart-button:active {
+    opacity: 0.6;
+  }
+
   .buy-now-button {
     background-color: rgb(255, 164, 28);
     color: black;
@@ -97,7 +105,18 @@
     border-radius: 18px;
     margin-left: 5px;
     cursor: pointer;
+  }
 
+  .buy-now-button:hover {
+    background-color: rgb(255, 120, 28);
+  }
+
+  .buy-now-button:active {
+    opacity: 0.6;
+  }
+
+  .ahref:hover {
+    color: orange;
   }
 
 </style>
