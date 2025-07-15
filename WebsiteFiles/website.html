@@ -9,14 +9,15 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 5px;
+    transition: opacity 0.15s;
   }
 
   .subscribe-button:hover {
-    opacity: 0.3;
+    opacity: .8;
   }
 
   .subscribe-button:active {
-
+    opacity: .5;
   }
 
   .join-button {
@@ -28,7 +29,18 @@
     height: 36px;
     width: 62px;
     border-radius: 2px;
-    cursor: progress;
+    cursor: pointer;
+    transition: background-color 0.9s, color 0.9s;
+  }
+
+  .join-button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+    
+  }
+
+  .join-button:active {
+    opacity: 0.7;
   }
 
   .tweet-button {
@@ -42,10 +54,21 @@
     border-radius: 18px;
     cursor: grab;
     margin-left: 5px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, .5);
+  }
+
+  .tweet-button:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, .5);
   }
 
   .tweet-button:active {
-    cursor: grabbing;
+    cursor: pointer;
+    /* box-shadow: 5px 5px 10px black; */
+  }
+
+  .tweet-button:hover {
+
   }
 
   /* Challange excercise */
